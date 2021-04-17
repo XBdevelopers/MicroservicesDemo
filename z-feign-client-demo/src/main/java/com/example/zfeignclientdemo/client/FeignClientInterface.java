@@ -18,5 +18,5 @@ public interface FeignClientInterface {
 	public ProductList findProducts();
 	
 	@RequestMapping("/data/id")
-	public ProductList getProducts();
+	public ProductList getProducts(int id);
 }
